@@ -1,0 +1,85 @@
+<web-app>
+  <servlet>
+    <servlet-name>postenquiry</servlet-name>
+    <servlet-class>PostEnquiry</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>postenquiry</servlet-name>
+    <url-pattern>/PostEnquiry</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>newuser</servlet-name>
+    <servlet-class>signup</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>newuser</servlet-name>
+    <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>uavailability</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/uavailability</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>userbooking</servlet-name>
+    <servlet-class>ubooking</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>userbooking</servlet-name>
+    <url-pattern>/ubooking</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>userticket</servlet-name>
+    <servlet-class>uticket</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>userticket</servlet-name>
+    <url-pattern>/uticket</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>logoutservlet</servlet-name>
+    <servlet-class>logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>logoutservlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>manageticket</servlet-name>
+    <servlet-class>manage</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>manageticket</servlet-name>
+    <url-pattern>/manage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>delete</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>Homepage.html</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	h1.heading{
+			margin-top: 25px;
+			margin-bottom: 0px; 
+		}
+	</style>
+	<title>Bus Enquiry</title>
+</head>
+<body background="Images\enquirybackground.jpg">
+	<form action="PostEnquiry" method="Post">
+	    <fieldset align=center style=" border-color:white; border-style:solid; border-width:5px; border-radius:30px;margin-left: 25%; width:50%;margin-top: 7%">
+        <legend><h1 class="heading" align="center" style="font-size: 72px; font-family:Gabriola; color:yellow;">Bus Enquiry</h1></legend>
+		<font style="margin-left:20px; color:white; font-size: 25px"><b>* Leaving from :</b>~~~~~~<select style="border-style: solid ;border-radius: 20px; width: 130px; height: 30px;" name="departure">
+			<option value="Delhi">Delhi</option>
+			<option value="Lucknow">Lucknow</option>
+			<option value="Kanpur">Kanpur</option>
+			<option value="Lakhimpur">Lakhimpur</option>
+			<option value="Bareilly">Bareilly</option>
+		</select>
+		</font><br><br><br><br>
+		<font style="margin-left:20px; color:white; font-size: 25px;white-space: "><b>* Going to :</b>~~~~~~~~~~<select style="border-style: solid ;border-radius: 20px; width: 130px; height: 30px;" name="destination">
+			<option value="Delhi">Delhi</option>
+			<option value="Lucknow">Lucknow</option>
+			<option value="Kanpur">Kanpur</option>
+			<option value="Lakhimpur">Lakhimpur</option>
+			<option value="Bareilly">Bareilly</option>
+		</select>                                            
+		</font><br><br><br><br>
+		<font style="margin-left:20px;color:white; font-size: 25px"><b>* Bus type :</b>~~~~~~~~~~<select style="border-style: solid; border-radius: 20px; border-width: 0.5px; border-color:grey; width: 130px; height: 32px;" name="bustype">
+			<option value="super deluxe">Super deluxe</option>
+			<option value="deluxe">Deluxe</option>
+			<option value="basic">Basic</option>
+		</select>
+	</font><br><br><br>
+		<pre><input style="font-size: 20px; color:white ; background-color:lime; border-style: solid ;border-radius: 20px; width: 100px; height: 35px;" type="submit" name="enquire" value="Enquire">  	  <input style="font-size: 20px; color:white ; background-color:red; border-style: solid ;border-radius: 20px; width: 100px; height: 35px;" type="reset" name="reset"></pre>	</fieldset></form>
+</body>
+</html>

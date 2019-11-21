@@ -1,0 +1,47 @@
+#dollar
+{
+	color:lightgreen;
+}
+h1
+{
+	top:120px;
+	margin:0px;
+	font-size:300%;
+}
+#motto
+{
+	color:rgb(46,125,50);
+}
+#quote
+{
+	color:red;
+}
+#one
+{
+	background-color:white;
+}
+#two
+{
+	background-color:white;
+}
+#three
+{
+	background-color:rgb(26,35,47);
+}
+#routes
+{
+	color:red;
+	font-size:16px;
+	font-family:helvetica;
+}
+#busoperators
+{
+	color:red;
+	font-size:16px;
+	font-family:helvetica;
+}
+#ticketssold
+{
+	font-size:16px;
+	font-family:helvetica;
+}
